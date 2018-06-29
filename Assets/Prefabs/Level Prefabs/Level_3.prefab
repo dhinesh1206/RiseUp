@@ -79,6 +79,7 @@ GameObject:
   - component: {fileID: 212859031844613034}
   - component: {fileID: 50677498535632018}
   - component: {fileID: 61985124281193300}
+  - component: {fileID: 114188805403255358}
   m_Layer: 0
   m_Name: Diamond
   m_TagString: Enemy
@@ -173,6 +174,7 @@ GameObject:
   - component: {fileID: 212996638959458352}
   - component: {fileID: 61763159342639958}
   - component: {fileID: 50850516314480556}
+  - component: {fileID: 114970473078055410}
   m_Layer: 0
   m_Name: Bar
   m_TagString: Enemy
@@ -191,6 +193,7 @@ GameObject:
   - component: {fileID: 212788347761848732}
   - component: {fileID: 61109885409988032}
   - component: {fileID: 50899356194855266}
+  - component: {fileID: 114781305297809546}
   m_Layer: 0
   m_Name: Bar (3)
   m_TagString: Enemy
@@ -3353,6 +3356,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 1
   destroyTime: 5
+--- !u!114 &114188805403255358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1098118890362060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e585a653ed33c64a858f7a60090eb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 1
+  destroyTime: 5
 --- !u!114 &114205312423359644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3496,6 +3512,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 1
   destroyTime: 5
+--- !u!114 &114781305297809546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295997852811050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e585a653ed33c64a858f7a60090eb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 1
+  destroyTime: 5
 --- !u!114 &114804977241155736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3580,6 +3609,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1564123293913790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e585a653ed33c64a858f7a60090eb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 1
+  destroyTime: 5
+--- !u!114 &114970473078055410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226622603839430}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e585a653ed33c64a858f7a60090eb38, type: 3}
