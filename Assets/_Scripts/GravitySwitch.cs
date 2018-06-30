@@ -5,7 +5,7 @@ using UnityEngine;
 public class GravitySwitch : MonoBehaviour {
 
     Rigidbody2D rb;
-    public float timeToActivate, activationgravityscale,deactivationgravityscale, deActivateTime;
+    public float timeToActivate, activationgravityscale;
 
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -17,14 +17,6 @@ public class GravitySwitch : MonoBehaviour {
     {
         yield return new WaitForSeconds(timeToActivate);
         rb.gravityScale = activationgravityscale;
-        StartCoroutine(Deactivate());
-    }
-
-    public IEnumerator Deactivate()
-    {
-        yield return new WaitForSeconds(deActivateTime);
-        rb.velocity = Vector2.zero;
-        rb.gravityScale = deactivationgravityscale;
-        
+        //StartCoroutine(Deactivate());
     }
 }

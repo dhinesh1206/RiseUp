@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectAddForce : MonoBehaviour {
     Rigidbody2D rb;
-    public float timeToActivate,thrust;
+    public float timeToActivate,thrust,stopForceTime;
     public Vector2 forceAngle;
     public bool idle = true;
 	
@@ -23,5 +23,15 @@ public class ObjectAddForce : MonoBehaviour {
     {
         yield return new WaitForSeconds(timeToActivate);
         idle = false;
+		if (stopForceTime != 0) {
+			StartCoroutine (DeActivate ());
+		}
     }
+
+	IEnumerator DeActivate()
+	{
+		yield return new WaitForSeconds (stopForceTime);
+		idle = true;
+	}
+
 }

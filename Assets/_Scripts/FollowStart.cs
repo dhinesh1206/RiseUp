@@ -50,13 +50,16 @@ public class FollowStart : MonoBehaviour {
 
     public void DetachTail(GameObject tailtobedetached)
     {
-        int indextodetach = tail.IndexOf(tailtobedetached.transform.parent.gameObject);
-        for (int i = tail.Count-1; i >= indextodetach; i--)
-        {
-            tail[i].GetComponentInChildren<Collider2D>().enabled = false;
-            tail[i].AddComponent<Rigidbody2D>();
-            tail.Remove(tail[i]);
-        }
+        //int indextodetach = tail.IndexOf(tailtobedetached.transform.parent.gameObject);
+        //for (int i = tail.Count-1; i >= indextodetach; i--)
+        //{
+        //    tail[i].GetComponentInChildren<Collider2D>().enabled = false;
+        //    tail[i].AddComponent<Rigidbody2D>();
+        //    tail.Remove(tail[i]);
+        //}
+        GameObject TailDeath = tail[tail.Count - 1];
+        tail.Remove(TailDeath);
+        Destroy(TailDeath);
     }
 
     public void SmallSnakeDeath(GameObject child)

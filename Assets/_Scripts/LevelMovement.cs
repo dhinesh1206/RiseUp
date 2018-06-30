@@ -10,7 +10,7 @@ public class LevelMovement : MonoBehaviour {
 	void Start () {
         transform.DOMove(new Vector2(0, endPosition), time, false).SetEase(Ease.Linear).OnComplete(() =>
         {
-           // LevelCreation.instance.NextLevel();
+            LevelCreation.instance.NextLevel();
             Destroy(gameObject);
         });
 	}
