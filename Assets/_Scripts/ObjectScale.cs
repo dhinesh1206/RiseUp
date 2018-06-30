@@ -28,7 +28,7 @@ public class ObjectScale : MonoBehaviour {
         yield return new WaitForSeconds(intervalTime);
         transform.DOScale(value, time).SetEase(easetype).OnComplete(() =>
         {
-            if (value == scaleInTime)
+            if (value == maxScaleValue)
                 StartCoroutine(ScaleObject(scaleInTime,minScaleValue));
             else
                 StartCoroutine(ScaleObject(scaleOutTime, maxScaleValue));

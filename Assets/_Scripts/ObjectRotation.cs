@@ -17,9 +17,11 @@ public class ObjectRotation : MonoBehaviour {
     public IEnumerator Activate()
     {
         yield return new WaitForSeconds(timeToActivate);
-        {
+        
             rb.AddTorque(velocity, forcemode);
-        }
+        
 
     }
+
+   
 }

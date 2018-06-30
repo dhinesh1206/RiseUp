@@ -1270,12 +1270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - {fileID: 1982209604802216, guid: bdf83f78eae9a1249bde84b97a7f9fbd, type: 2}
-  - {fileID: 1074989270486002, guid: ac92b7c26ff1d224ca5d7ace92c07680, type: 2}
-  - {fileID: 1811577733519554, guid: c6052fee53d6dfa46a94f61eecafbb43, type: 2}
-  - {fileID: 1280959268236746, guid: 1a96c52461b862d4aacef5e2b165d742, type: 2}
-  - {fileID: 1064786746252058, guid: 40f65c0ef5c1c3044ad307223709c372, type: 2}
-  - {fileID: 1762814884772312, guid: a883822b32321d24eb2e4742872eda7f, type: 2}
+  - {fileID: 1716868424142614, guid: 63bd1fc1d496374409ea1431755949be, type: 2}
+  - {fileID: 1716868424142614, guid: 63bd1fc1d496374409ea1431755949be, type: 2}
   currentLevel: 0
 --- !u!4 &803208392
 Transform:
