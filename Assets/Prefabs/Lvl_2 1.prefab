@@ -223,8 +223,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4816798382032148}
   - component: {fileID: 212699862416446872}
-  - component: {fileID: 60324605238852622}
   - component: {fileID: 114092166446413144}
+  - component: {fileID: 60657224842020098}
   m_Layer: 0
   m_Name: pick up (1)
   m_TagString: Enemy
@@ -400,7 +400,7 @@ Transform:
   m_GameObject: {fileID: 1725371665330410}
   m_LocalRotation: {x: -0, y: -0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -3.55, y: -15.07, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 4474432485846198}
   m_RootOrder: 12
@@ -412,7 +412,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1707943882862298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.64, y: -6.07, z: 0}
+  m_LocalPosition: {x: 6.74, y: -7.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4474432485846198}
@@ -546,7 +546,7 @@ PolygonCollider2D:
       - {x: 1.25, y: -1.27}
       - {x: 1.27, y: -1.25}
       - {x: 0.02, y: 1.26}
---- !u!60 &60324605238852622
+--- !u!60 &60657224842020098
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -562,7 +562,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -570,38 +570,47 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.24, y: -0.17999999}
-      - {x: 0.55, y: -0.17}
-      - {x: 0.61, y: -0.16}
-      - {x: 0.63, y: -0.14}
-      - {x: 0.63, y: -0.12}
-      - {x: 0.56, y: -0.049999997}
-      - {x: 0.31, y: 0.13}
-      - {x: 0.28, y: 0.17}
-      - {x: 0.32999998, y: 0.35}
-      - {x: 0.39999998, y: 0.62}
-      - {x: 0.37, y: 0.64}
-      - {x: 0.29999998, y: 0.59}
-      - {x: 0.17999999, y: 0.51}
-      - {x: 0.07, y: 0.42999998}
-      - {x: 0.01, y: 0.37}
-      - {x: -0.16, y: 0.48}
-      - {x: -0.32, y: 0.59999996}
-      - {x: -0.39, y: 0.63}
-      - {x: -0.42, y: 0.59999996}
-      - {x: -0.38, y: 0.45}
-      - {x: -0.28, y: 0.14999999}
-      - {x: -0.5, y: -0.02}
-      - {x: -0.63, y: -0.14}
-      - {x: -0.62, y: -0.17}
-      - {x: -0.47, y: -0.17999999}
-      - {x: -0.14999999, y: -0.26}
-      - {x: -0.03, y: -0.61}
-      - {x: 0, y: -0.63}
-      - {x: 0.03, y: -0.62}
-      - {x: 0.049999997, y: -0.55}
-      - {x: 0.13, y: -0.32}
-      - {x: 0.17, y: -0.17999999}
+    - - {x: 0.96999997, y: -1.01}
+      - {x: 1.12, y: -0.87}
+      - {x: 1.1999999, y: -0.74}
+      - {x: 1.2099999, y: -0.69}
+      - {x: 1.2099999, y: -0.48999998}
+      - {x: 1.1999999, y: -0.39999998}
+      - {x: 1.1899999, y: -0.26999998}
+      - {x: 1.1, y: 0.049999997}
+      - {x: 1, y: 0.26999998}
+      - {x: 0.83, y: 0.63}
+      - {x: 0.77, y: 0.72999996}
+      - {x: 0.61, y: 0.95}
+      - {x: 0.44, y: 1.11}
+      - {x: 0.35, y: 1.18}
+      - {x: 0.17999999, y: 1.24}
+      - {x: 0.089999996, y: 1.26}
+      - {x: -0.11, y: 1.26}
+      - {x: -0.21, y: 1.24}
+      - {x: -0.31, y: 1.1999999}
+      - {x: -0.45, y: 1.11}
+      - {x: -0.55, y: 1.02}
+      - {x: -0.71999997, y: 0.81}
+      - {x: -0.78999996, y: 0.7}
+      - {x: -0.85999995, y: 0.58}
+      - {x: -0.97999996, y: 0.32}
+      - {x: -1.03, y: 0.21}
+      - {x: -1.12, y: -0.01}
+      - {x: -1.18, y: -0.28}
+      - {x: -1.2099999, y: -0.44}
+      - {x: -1.2099999, y: -0.71}
+      - {x: -1.15, y: -0.84999996}
+      - {x: -0.96999997, y: -1.02}
+      - {x: -0.88, y: -1.0699999}
+      - {x: -0.63, y: -1.1899999}
+      - {x: -0.55, y: -1.1999999}
+      - {x: -0.35, y: -1.24}
+      - {x: -0.17, y: -1.26}
+      - {x: 0.21, y: -1.26}
+      - {x: 0.44, y: -1.24}
+      - {x: 0.7, y: -1.17}
+      - {x: 0.88, y: -1.0699999}
 --- !u!60 &60670650646928432
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -872,7 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPosition: -10
-  time: 22
+  time: 30
 --- !u!212 &212087739479957644
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1259,7 +1268,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6ab5422ff78b5934a93d412defc4ef23, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d661d99453b883d4aa28063e977accaf, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -6499,7 +6499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPosition: -10
-  time: 22
+  time: 30
 --- !u!114 &114170907270388730
 MonoBehaviour:
   m_ObjectHideFlags: 1
