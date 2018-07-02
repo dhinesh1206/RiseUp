@@ -10,12 +10,22 @@ public class FollowStart : MonoBehaviour {
     public static FollowStart instance;
 
     public List<GameObject> tail;
+    public GameObject tailPrefab, head;
     public List<GameObject> Child;
-    public GameObject head;
-    public float speed, restartTime;
+    public int tailCount,maxTailToShow;
+    public float speed;
 
     private void Start()
     {
+        for(int i=0; i<tailCount; i++)
+        {
+            GameObject createdObject = Instantiate(tailPrefab, transform, false);
+            createdObject.transform.SetParent(null);
+            tail.Add(createdObject);
+        }
+        tailCount = tail.Count;
+        TailCountIndicator.instance.UpdateCount();
+       // StartCoroutine(AddTail(3));
         //StartCoroutine(Restart(restartTime));
     }
 
@@ -32,6 +42,7 @@ public class FollowStart : MonoBehaviour {
 
     public void Update()
     {
+       
         if (tail.Count == 0 || Child.Count == 0)
         {
             StartCoroutine(Restart(1));
@@ -50,16 +61,52 @@ public class FollowStart : MonoBehaviour {
 
     public void DetachTail(GameObject tailtobedetached)
     {
-        //int indextodetach = tail.IndexOf(tailtobedetached.transform.parent.gameObject);
-        //for (int i = tail.Count-1; i >= indextodetach; i--)
-        //{
-        //    tail[i].GetComponentInChildren<Collider2D>().enabled = false;
-        //    tail[i].AddComponent<Rigidbody2D>();
-        //    tail.Remove(tail[i]);
-        //}
-        GameObject TailDeath = tail[tail.Count - 1];
-        tail.Remove(TailDeath);
-        Destroy(TailDeath);
+        if (tailCount <= maxTailToShow)
+        {
+            tailCount -= 1;
+            TailCountIndicator.instance.UpdateCount();
+            GameObject TailDeath = tail[tail.Count - 1];
+            tail.Remove(TailDeath);
+            Destroy(TailDeath);
+            
+        }
+        else
+        {
+            tailCount -= 1;
+            TailCountIndicator.instance.UpdateCount();
+        }
+    }
+
+    public void AddTails(int count)
+    {
+        StartCoroutine(AddTail(count));
+    }
+
+    public IEnumerator AddTail(int count)
+    {
+        for(int i=0; i< count; i++)
+        {
+            AddTailFunction();
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+
+    public void AddTailFunction()
+    {
+        if(tailCount >= maxTailToShow)
+        {
+            tailCount += 1;
+            TailCountIndicator.instance.UpdateCount();
+        }
+        else
+        {
+          GameObject createdobject = Instantiate(tailPrefab, transform, false);
+          createdobject.transform.SetParent(null);
+          tail.Add(createdobject);
+          tail[tail.Count-1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);
+          tailCount += 1;
+            TailCountIndicator.instance.UpdateCount();
+        }
     }
 
     public void SmallSnakeDeath(GameObject child)

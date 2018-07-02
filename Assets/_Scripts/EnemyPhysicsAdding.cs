@@ -10,6 +10,6 @@ public class EnemyPhysicsAdding : MonoBehaviour {
     {
         transform.SetParent(null);
         transform.GetComponent<Rigidbody2D>().gravityScale = gravityScale;
-        Destroy(gameObject, destroyTime);
+       // Destroy(gameObject, destroyTime);
     }
 }

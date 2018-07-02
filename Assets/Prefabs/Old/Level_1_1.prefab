@@ -4089,6 +4089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToActivate: 11
   thrust: 0
+  stopForceTime: 0
   forceAngle: {x: -2, y: -5}
   idle: 1
 --- !u!114 &114649652679712140

@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 3
-  activationgravityscale: 0.2
+  activationgravityscale: 0.8
 --- !u!114 &114866299041601400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,7 +141,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 96d095f35c95beb42b12e6b24457c653, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.38235295, b: 0.38235295, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
