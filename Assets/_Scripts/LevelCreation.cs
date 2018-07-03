@@ -29,7 +29,7 @@ public class LevelCreation : MonoBehaviour {
         {
             i = Random.Range(0, levels.Length);
         }
-        Instantiate(levels[i], transform, false);
+        GameObject levelCreated = Instantiate(levels[i], transform, false);
         currentLevel = i;
         StartCoroutine(NextLevelCreate());
     }

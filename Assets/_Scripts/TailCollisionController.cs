@@ -9,7 +9,7 @@ public class TailCollisionController : MonoBehaviour {
         if (collision.gameObject.tag == "Enemy")
         {
             FollowStart.instance.DetachTail(gameObject);
-            Destroy(collision.gameObject);
+           // Destroy(collision.gameObject);
         }
     }
 }

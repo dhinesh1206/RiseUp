@@ -28,7 +28,9 @@ public class InstantiationScript : MonoBehaviour {
     {
         for (int i=0; i<creationCount; i ++)
         {
-            Instantiate(objectToCreate, parentToCreate, false);
+			GameObject createdObject =  Instantiate(objectToCreate, parentToCreate, false);
+			createdObject.transform.SetParent (null);
+			Destroy (createdObject, 10f);
             yield return new WaitForSeconds(creationInterval);
         }
     }

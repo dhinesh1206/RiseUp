@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 3
+  timeToActivate: 2
   activationgravityscale: 0.8
 --- !u!114 &114516140544710182
 MonoBehaviour:
@@ -106,7 +106,7 @@ MonoBehaviour:
   timeToActivate: 0
   thrust: 20
   stopForceTime: 1
-  forceAngle: {x: 2, y: -1}
+  forceAngle: {x: 2.5, y: -1}
   idle: 1
 --- !u!212 &212113718649933850
 SpriteRenderer:

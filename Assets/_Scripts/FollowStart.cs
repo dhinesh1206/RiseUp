@@ -3,23 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
-using System;
 
 public class FollowStart : MonoBehaviour {
 
     public static FollowStart instance;
 
     public List<GameObject> tail;
-    public GameObject tailPrefab, head;
+    public GameObject[] tailPrefab;
     public List<GameObject> Child;
     public int tailCount,maxTailToShow;
     public float speed;
+    public Vector2[] sizeDifference;
+    public int index;
 
     private void Start()
     {
-        for(int i=0; i<tailCount; i++)
+        index = Random.Range(0, tailPrefab.Length);
+        for (int i=0; i<tailCount; i++)
         {
-            GameObject createdObject = Instantiate(tailPrefab, transform, false);
+
+            GameObject createdObject = Instantiate(tailPrefab[index], transform, false);
+            createdObject.transform.localScale = sizeDifference[i];
             createdObject.transform.SetParent(null);
             tail.Add(createdObject);
         }
@@ -27,6 +31,10 @@ public class FollowStart : MonoBehaviour {
         TailCountIndicator.instance.UpdateCount();
        // StartCoroutine(AddTail(3));
         //StartCoroutine(Restart(restartTime));
+    }
+
+    public void CreateTail()
+    {
     }
 
     IEnumerator Restart(float time)
@@ -56,6 +64,7 @@ public class FollowStart : MonoBehaviour {
         for (int i = 1; i < tail.Count; i++)
         {
             tail[i].transform.position = Vector2.Lerp(tail[i].transform.position, tail[i - 1].transform.GetChild(1).transform.position, speed*Time.deltaTime);
+
         }
     }
 
@@ -100,7 +109,8 @@ public class FollowStart : MonoBehaviour {
         }
         else
         {
-          GameObject createdobject = Instantiate(tailPrefab, transform, false);
+          GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
+            createdobject.transform.localScale = sizeDifference[tailCount-1];
           createdobject.transform.SetParent(null);
           tail.Add(createdobject);
           tail[tail.Count-1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);

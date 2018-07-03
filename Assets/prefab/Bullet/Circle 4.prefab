@@ -106,7 +106,7 @@ MonoBehaviour:
   timeToActivate: 0
   thrust: 20
   stopForceTime: 1
-  forceAngle: {x: -2, y: -2.5}
+  forceAngle: {x: -3.5, y: -2.5}
   idle: 1
 --- !u!212 &212039290575025436
 SpriteRenderer:
