@@ -104,9 +104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 0
-  thrust: 20
+  thrust: 2
   stopForceTime: 1
-  forceAngle: {x: 2.5, y: -1}
+  forceAngle: {x: 0.5, y: -1}
   idle: 1
 --- !u!212 &212113718649933850
 SpriteRenderer:

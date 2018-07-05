@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class FollowStart : MonoBehaviour {
@@ -14,10 +13,42 @@ public class FollowStart : MonoBehaviour {
     public int tailCount,maxTailToShow;
     public float speed;
     public Vector2[] sizeDifference;
-    public int index;
+    public int index,currentChild;
+
+    private void OnEnable()
+    {
+        EventManager.instance.On_NextLevel += On_NextLevel;
+        EventManager.instance.On_Death += On_Death;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.instance.On_NextLevel -= On_NextLevel;
+        EventManager.instance.On_Death -= On_Death;
+    }
+
+    private void On_NextLevel()
+    {
+        StartCoroutine(TunOnChilds());
+    }
+
+    private void On_Death()
+    {
+    }
+
+    IEnumerator TunOnChilds()
+    {
+        yield return new WaitForSeconds(2f);
+        currentChild = 3;
+        foreach (GameObject child in Child)
+        {
+            child.SetActive(true);
+        }
+    }
 
     private void Start()
     {
+        currentChild = 3;
         index = Random.Range(0, tailPrefab.Length);
         for (int i=0; i<tailCount; i++)
         {
@@ -40,7 +71,7 @@ public class FollowStart : MonoBehaviour {
     IEnumerator Restart(float time)
     {
         yield return new WaitForSeconds(time);
-        SceneManager.LoadScene(0);
+        EventManager.instance.OnDeath();
     }
 
     private void Awake()
@@ -50,12 +81,6 @@ public class FollowStart : MonoBehaviour {
 
     public void Update()
     {
-       
-        if (tail.Count == 0 || Child.Count == 0)
-        {
-            StartCoroutine(Restart(1));
-        }
-
         if (tail.Count > 0)
         {
             tail[0].transform.position = Vector2.Lerp(tail[0].transform.position, transform.position, speed * Time.deltaTime);
@@ -83,6 +108,10 @@ public class FollowStart : MonoBehaviour {
         {
             tailCount -= 1;
             TailCountIndicator.instance.UpdateCount();
+        }
+        if (tail.Count == 0 || currentChild == 0)
+        {
+            StartCoroutine(Restart(0));
         }
     }
 
@@ -121,7 +150,12 @@ public class FollowStart : MonoBehaviour {
 
     public void SmallSnakeDeath(GameObject child)
     {
-        Child.Remove(child);
-        Destroy(child);
+        // Child.Remove(child);
+        child.SetActive(false);
+        currentChild -= 1;
+        if (tail.Count == 0 || currentChild == 0)
+        {
+            StartCoroutine(Restart(0));
+        }
     }
 }
