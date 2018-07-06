@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class ObjectsMoveTowards : MonoBehaviour {
 
-    public float timeToActivate, speed;
+    public float timeToActivate,timetoDeActivate, speed;
     public Vector3 endPosition;
     public bool idle = true;
 
 	// Use this for initialization
 	void Start () {
         StartCoroutine(Activate());
+        if(timetoDeActivate != 0)
+        {
+            StartCoroutine(DeActivate());
+        }
 	}
 	
 	// Update is called once per frame
@@ -21,6 +25,12 @@ public class ObjectsMoveTowards : MonoBehaviour {
             transform.localPosition = Vector3.MoveTowards(transform.localPosition, endPosition, steps);
         }
 	}
+
+    IEnumerator DeActivate()
+    {
+        yield return new WaitForSeconds(timetoDeActivate);
+        idle = true;
+    }
 
     IEnumerator Activate()
     {

@@ -32,7 +32,9 @@ public class FollowStart : MonoBehaviour {
 
     private void On_NextLevel()
     {
+        AddTails(4);
         StartCoroutine(TunOnChilds());
+
     }
 
     private void On_Death()
@@ -41,6 +43,7 @@ public class FollowStart : MonoBehaviour {
 
     IEnumerator TunOnChilds()
     {
+        
         yield return new WaitForSeconds(0.5f);
         currentChild = 3;
         foreach (GameObject child in Child)
