@@ -14,17 +14,20 @@ public class FollowStart : MonoBehaviour {
     public float speed;
     public Vector2[] sizeDifference;
     public int index,currentChild;
+    public bool testing;
 
     private void OnEnable()
     {
         EventManager.instance.On_NextLevel += On_NextLevel;
         EventManager.instance.On_Death += On_Death;
+        EventManager.instance.On_Reload += On_NextLevel;
     }
 
     private void OnDisable()
     {
         EventManager.instance.On_NextLevel -= On_NextLevel;
         EventManager.instance.On_Death -= On_Death;
+        EventManager.instance.On_Reload -= On_NextLevel;
     }
 
     private void On_NextLevel()
@@ -38,7 +41,7 @@ public class FollowStart : MonoBehaviour {
 
     IEnumerator TunOnChilds()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
         currentChild = 3;
         foreach (GameObject child in Child)
         {
@@ -111,7 +114,10 @@ public class FollowStart : MonoBehaviour {
         }
         if (tail.Count == 0 || currentChild == 0)
         {
-            StartCoroutine(Restart(0));
+            if (!testing)
+            {
+                StartCoroutine(Restart(0));
+            }
         }
     }
 
@@ -155,7 +161,10 @@ public class FollowStart : MonoBehaviour {
         currentChild -= 1;
         if (tail.Count == 0 || currentChild == 0)
         {
-            StartCoroutine(Restart(0));
+            if (!testing)
+            {
+                StartCoroutine(Restart(0));
+            }
         }
     }
 }

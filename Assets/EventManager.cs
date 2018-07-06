@@ -6,7 +6,7 @@ public class EventManager : MonoBehaviour {
 
     public static EventManager instance;
     public delegate void ParameterlessDelegate();
-    public event ParameterlessDelegate On_Play, On_Death, On_Score, On_Restart,On_NextLevel;
+    public event ParameterlessDelegate On_Play, On_Death, On_Score, On_Restart, On_NextLevel, On_Reload;
     bool death;
 
     private void Awake()
@@ -48,5 +48,13 @@ public class EventManager : MonoBehaviour {
     {
         if (On_NextLevel != null)
             On_NextLevel();
+    }
+
+    public void OnReload()
+    {
+        if(On_Reload != null)
+        {
+            On_Reload();
+        }
     }
 }
