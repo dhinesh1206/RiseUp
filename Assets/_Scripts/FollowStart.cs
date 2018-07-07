@@ -15,6 +15,7 @@ public class FollowStart : MonoBehaviour {
     public Vector2[] sizeDifference;
     public int index,currentChild;
     public bool testing;
+    public Ease easetype;
 
     private void OnEnable()
     {
@@ -32,7 +33,7 @@ public class FollowStart : MonoBehaviour {
 
     private void On_NextLevel()
     {
-        AddTails(4);
+        AddTails(5);
         StartCoroutine(TunOnChilds());
 
     }
@@ -120,15 +121,17 @@ public class FollowStart : MonoBehaviour {
     
     public void TailAnim()
     {
-        
-        
-
         if (tail.Count > 0)
-            tail[0].transform.DOMove(transform.position, animCheckTime, false).SetEase(Ease.Linear);
+        {
+           // tail[0].transform.LookAt(transform);
+            tail[0].transform.DOMove(transform.position, animCheckTime, false).SetEase(easetype);
+        }
 
         for (int i = 1; i < tail.Count; i++)
-             tail[i].transform.DOMove(tail[i - 1].transform.GetChild(1).transform.position, animCheckTime, false).SetEase(Ease.Linear);
-
+        {
+         //   tail[i].transform.LookAt(tail[i - 1].transform);
+            tail[i].transform.DOMove(tail[i - 1].transform.GetChild(1).transform.position, animCheckTime, false).SetEase(easetype);
+        }
         Invoke("TailAnim", animCheckTime);
     }
 
@@ -166,8 +169,9 @@ public class FollowStart : MonoBehaviour {
     {
         for(int i=0; i< count; i++)
         {
-            AddTailFunction();
+            
             yield return new WaitForSeconds(0.5f);
+            AddTailFunction();
         }
     }
 
@@ -180,13 +184,26 @@ public class FollowStart : MonoBehaviour {
         }
         else
         {
-          GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
-            createdobject.transform.localScale = sizeDifference[tailCount-1];
-          createdobject.transform.SetParent(null);
-          tail.Add(createdobject);
-          tail[tail.Count-1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);
-          tailCount += 1;
-            TailCountIndicator.instance.UpdateCount();
+            if(tailCount == 0)
+            {
+                GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
+                createdobject.transform.localScale = sizeDifference[tailCount];
+                createdobject.transform.SetParent(null);
+                tail.Add(createdobject);
+                tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position,transform.parent.GetChild(1).transform.position, speed * Time.deltaTime);
+                tailCount += 1;
+                TailCountIndicator.instance.UpdateCount();
+            } else
+            {
+                GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
+                createdobject.transform.localScale = sizeDifference[tailCount];
+                createdobject.transform.SetParent(null);
+                tail.Add(createdobject);
+                tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);
+                tailCount += 1;
+                TailCountIndicator.instance.UpdateCount();
+            }
+         
         }
     }
 

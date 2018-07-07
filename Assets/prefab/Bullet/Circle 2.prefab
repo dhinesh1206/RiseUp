@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50766995047122278}
   - component: {fileID: 114185733765071776}
   - component: {fileID: 114897388254545514}
+  - component: {fileID: 114658605621887320}
   m_Layer: 0
   m_Name: Circle 2
   m_TagString: Enemy
@@ -91,10 +92,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 0
-  thrust: 5000
+  thrust: 500
   stopForceTime: 0.5
   forceAngle: {x: 1, y: 0}
   idle: 1
+--- !u!114 &114658605621887320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571405260754646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1d2459ba844a6459c95f5cedb1ccf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114897388254545514
 MonoBehaviour:
   m_ObjectHideFlags: 1

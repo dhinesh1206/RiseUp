@@ -117,7 +117,6 @@ GameObject:
   - component: {fileID: 4429116105282092}
   - component: {fileID: 212346311453078664}
   - component: {fileID: 61645236711677220}
-  - component: {fileID: 114635512874240840}
   m_Layer: 0
   m_Name: layer snake (1)
   m_TagString: Untagged
@@ -173,7 +172,6 @@ GameObject:
   - component: {fileID: 4266109720971466}
   - component: {fileID: 212238980910856330}
   - component: {fileID: 61587665862696096}
-  - component: {fileID: 114878722249143958}
   m_Layer: 0
   m_Name: layer snake (2)
   m_TagString: Untagged
@@ -383,7 +381,6 @@ GameObject:
   - component: {fileID: 4574505790796480}
   - component: {fileID: 212903512200036806}
   - component: {fileID: 61940413746008782}
-  - component: {fileID: 114503474643879952}
   m_Layer: 0
   m_Name: layer snake
   m_TagString: Untagged
@@ -548,7 +545,6 @@ GameObject:
   - component: {fileID: 4794025646039754}
   - component: {fileID: 212240204936115212}
   - component: {fileID: 61480981194833422}
-  - component: {fileID: 114274256194287206}
   m_Layer: 0
   m_Name: layer snake (3)
   m_TagString: Untagged
@@ -1663,15 +1659,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 20
+  m_Mass: 180
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!50 &50039208675165538
 Rigidbody2D:
   serializedVersion: 4
@@ -3881,21 +3877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114274256194287206
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1672565019899718}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e00bda993b13f0e4483d9f97687ebbc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToActivate: 0
-  speed: 2
-  endPosition: {x: -4.25, y: 0, z: 0}
-  idle: 1
 --- !u!114 &114299460991271926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3959,7 +3940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 6
+  timeToActivate: 5.8
   activationgravityscale: 0.8
 --- !u!114 &114389323117927214
 MonoBehaviour:
@@ -4026,21 +4007,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114503474643879952
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1446334223026656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e00bda993b13f0e4483d9f97687ebbc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToActivate: 0
-  speed: 2
-  endPosition: {x: 4.25, y: 0, z: 0}
-  idle: 1
 --- !u!114 &114532075883323454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4104,7 +4070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 5
+  timeToActivate: 4.5
   activationgravityscale: 0.8
 --- !u!114 &114602454771057308
 MonoBehaviour:
@@ -4145,21 +4111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114635512874240840
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1108762523438944}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e00bda993b13f0e4483d9f97687ebbc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToActivate: 0
-  speed: 2
-  endPosition: {x: -4.25, y: 0, z: 0}
-  idle: 1
 --- !u!114 &114660363339822202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4210,7 +4161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 4
+  timeToActivate: 3.5
   activationgravityscale: 0.8
 --- !u!114 &114734712654971580
 MonoBehaviour:
@@ -4303,21 +4254,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114878722249143958
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1167499919616506}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e00bda993b13f0e4483d9f97687ebbc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToActivate: 0
-  speed: 2
-  endPosition: {x: 4.25, y: 0, z: 0}
-  idle: 1
 --- !u!114 &114956596768179072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4342,7 +4278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 6.5
+  timeToActivate: 6
   activationgravityscale: 0.8
 --- !u!114 &114966586481163718
 MonoBehaviour:

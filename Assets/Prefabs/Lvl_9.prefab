@@ -382,7 +382,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4617628953979298}
   - component: {fileID: 61116031308754284}
-  - component: {fileID: 114516320048263304}
   - component: {fileID: 212193660183856846}
   m_Layer: 0
   m_Name: GameObject (4)
@@ -630,7 +629,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4948048463737014}
   - component: {fileID: 61254379330691828}
-  - component: {fileID: 114321915247082622}
   - component: {fileID: 212579653258200644}
   m_Layer: 0
   m_Name: GameObject (3)
@@ -649,7 +647,6 @@ GameObject:
   - component: {fileID: 4648682657687104}
   - component: {fileID: 212571323512517454}
   - component: {fileID: 61635391776346422}
-  - component: {fileID: 50340306680193300}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1572,7 +1569,6 @@ GameObject:
   - component: {fileID: 4507664591785908}
   - component: {fileID: 212066671233223704}
   - component: {fileID: 61902253243835138}
-  - component: {fileID: 50068063119687842}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -4107,26 +4103,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!50 &50068063119687842
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1666191383312890}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1000000
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
 --- !u!50 &50078987994095802
 Rigidbody2D:
   serializedVersion: 4
@@ -4707,26 +4683,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!50 &50340306680193300
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1282879915790772}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1000000
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
 --- !u!50 &50345066837305262
 Rigidbody2D:
   serializedVersion: 4
@@ -8953,21 +8909,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 10
---- !u!114 &114321915247082622
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1281917043931100}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf454b74172a3da41ac4dd9b83795c64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceAngle: {x: -1, y: -4}
-  emptyPreviousVelocity: 0
-  forceMultiplier: 2
-  tagName: Force
 --- !u!114 &114330368684430288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9245,21 +9186,6 @@ MonoBehaviour:
   velocity: 10
   timeToActivate: 0
   forcemode: 0
---- !u!114 &114516320048263304
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1196208773764156}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf454b74172a3da41ac4dd9b83795c64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceAngle: {x: 1, y: -4}
-  emptyPreviousVelocity: 0
-  forceMultiplier: 2
-  tagName: Force
 --- !u!114 &114520809789281220
 MonoBehaviour:
   m_ObjectHideFlags: 1
