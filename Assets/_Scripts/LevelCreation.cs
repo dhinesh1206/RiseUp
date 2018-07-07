@@ -9,6 +9,7 @@ public class LevelCreation : MonoBehaviour {
     public bool testing;
     public float nextLevelInterval, reloadSecond;
     public int totalLevel;
+    public GameObject player;
 
 	void Start () {
         totalLevel = levels.Count;
@@ -29,6 +30,7 @@ public class LevelCreation : MonoBehaviour {
 
     private void On_Reload()
     {
+        player.transform.position = new Vector3(0, 0, 0);
         GameObject levelCreated = Instantiate(createdLevels[createdLevels.Count -1], transform, false);
         if (testing)
         {
@@ -38,6 +40,7 @@ public class LevelCreation : MonoBehaviour {
 
     private void On_NextLevel()
     {
+        player.transform.position = new Vector3(0, 0, 0);
         if (testing)
         {
             StartCoroutine(ReloadLevel());
