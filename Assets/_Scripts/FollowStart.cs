@@ -66,8 +66,12 @@ public class FollowStart : MonoBehaviour {
         }
         tailCount = tail.Count;
         TailCountIndicator.instance.UpdateCount();
+
+
+        TailAnim();
+
        // StartCoroutine(AddTail(3));
-        //StartCoroutine(Restart(restartTime));
+       //StartCoroutine(Restart(restartTime));
     }
 
     public void CreateTail()
@@ -87,16 +91,45 @@ public class FollowStart : MonoBehaviour {
 
     public void Update()
     {
+        return;
         if (tail.Count > 0)
         {
+            //tail[0].transform.position = Vector3.MoveTowards( new Vector3(tail[0].transform.position.x, transform.position.y, tail[0].transform.position.z);
             tail[0].transform.position = Vector2.Lerp(tail[0].transform.position, transform.position, speed * Time.deltaTime);
         }
 
         for (int i = 1; i < tail.Count; i++)
         {
+            //tail[i].transform.position = new Vector3(tail[i].transform.position.x,tail[i - 1].transform.GetChild(1).transform.position.y, tail[i].transform.position.z);
             tail[i].transform.position = Vector2.Lerp(tail[i].transform.position, tail[i - 1].transform.GetChild(1).transform.position, speed*Time.deltaTime);
 
         }
+    }
+
+    void EarlyUpdate()
+    {
+
+    }
+
+    private void LateUpdate()
+    {
+        
+    }
+
+    public float animCheckTime;
+    
+    public void TailAnim()
+    {
+        
+        
+
+        if (tail.Count > 0)
+            tail[0].transform.DOMove(transform.position, animCheckTime, false).SetEase(Ease.Linear);
+
+        for (int i = 1; i < tail.Count; i++)
+             tail[i].transform.DOMove(tail[i - 1].transform.GetChild(1).transform.position, animCheckTime, false).SetEase(Ease.Linear);
+
+        Invoke("TailAnim", animCheckTime);
     }
 
     public void DetachTail(GameObject tailtobedetached)
