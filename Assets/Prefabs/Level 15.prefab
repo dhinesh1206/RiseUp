@@ -1861,7 +1861,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58092625238482970
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1876,7 +1876,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58169223498815366
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1891,7 +1891,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58183951405164840
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1906,7 +1906,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58235467131797848
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1921,7 +1921,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58280983550491528
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1936,7 +1936,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58393072966558246
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1951,7 +1951,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58393186199016544
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1966,7 +1966,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58480072794529372
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1981,7 +1981,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58517386341545796
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -1996,7 +1996,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58537333822741784
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2011,7 +2011,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58538602063265582
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2026,7 +2026,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58632447180830114
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2041,7 +2041,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58666359985465690
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2056,7 +2056,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58690416475336490
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2071,7 +2071,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58719078553731972
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2086,7 +2086,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58789798491711100
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2101,7 +2101,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58830425008092930
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2116,7 +2116,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58832432330405618
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2131,7 +2131,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58836721493845156
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2146,7 +2146,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58851320441969700
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2161,7 +2161,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58893520055574966
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2176,7 +2176,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58945206640131582
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2191,7 +2191,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!58 &58952875362108376
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -2206,7 +2206,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.0000009536743}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.31
 --- !u!61 &61057206287944676
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -2223,14 +2223,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61385745087059054
 BoxCollider2D:
@@ -2248,14 +2248,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61482149624492806
 BoxCollider2D:
@@ -2273,14 +2273,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61546449527434300
 BoxCollider2D:
@@ -2298,14 +2298,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61624081436628918
 BoxCollider2D:
@@ -2323,14 +2323,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61705858775861882
 BoxCollider2D:
@@ -2348,14 +2348,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61706668559679800
 BoxCollider2D:
@@ -2373,14 +2373,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61762315242881896
 BoxCollider2D:
@@ -2398,14 +2398,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!61 &61770498168301374
 BoxCollider2D:
@@ -2423,14 +2423,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.59, y: 0.6}
+    newSize: {x: 0.62, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.59, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &114002671134863792
 MonoBehaviour:
@@ -2440,11 +2440,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1848448080010468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114026057069674120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2453,11 +2453,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397599639218216}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114071436627576210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2466,11 +2466,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1340324026805754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114078064778658678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2479,11 +2479,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1314060250031814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114087411407060124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2492,11 +2492,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1268725217490336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114136087244333708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2505,11 +2505,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397925644302220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114213739007438440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2518,11 +2518,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716133783345400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114218359679558688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2531,11 +2531,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299052806411200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114222829661256298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2544,11 +2544,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1100659094693988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114245890857899706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2557,11 +2557,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261707676417352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114299725929485318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2570,11 +2570,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1118473258737252}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114337227195270944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2583,11 +2583,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288546311860496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114359185046857932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2596,11 +2596,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1356055352008546}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114362316600779810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2609,11 +2609,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528342084699286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114376050443877880
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2622,11 +2622,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829420060592712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114380618833537770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2635,11 +2635,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1810994804888858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114402881988093806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2648,11 +2648,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1749031875983228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114445423251710248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2661,11 +2661,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137522931973798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114490337908185828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2674,11 +2674,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1238088765905686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114494794077651300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2687,11 +2687,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1607558115874456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114533961801022402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2700,11 +2700,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1887316549395932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114619396123065290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2713,11 +2713,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1287151605515132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114621503801153544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2739,11 +2739,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115159335554754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114686809486937808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2752,11 +2752,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1778241470150154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114687318221838410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2765,11 +2765,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1272738505363766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114757785490826428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2778,11 +2778,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1611417707457900}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114782589089760436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2791,11 +2791,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012927816829782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114879434572691084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2804,11 +2804,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1880298108328946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114887397438231632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2817,11 +2817,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1637019539762210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114891051553772452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2830,11 +2830,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1948228752409018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114952615566898674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2843,11 +2843,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1571088408815638}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114959575913268100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2856,11 +2856,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1900816049814830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!114 &114987657503623552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2869,11 +2869,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1053671023301878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityScale: 0.8
-  destroyTime: 15
+  destroyTime: 12
 --- !u!212 &212012709960665298
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -2909,7 +2909,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2953,7 +2953,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2997,11 +2997,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3041,7 +3041,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3085,7 +3085,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3129,7 +3129,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3173,11 +3173,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3217,7 +3217,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3261,7 +3261,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3305,11 +3305,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3349,7 +3349,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3393,11 +3393,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3437,7 +3437,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3481,7 +3481,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3525,7 +3525,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3569,7 +3569,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3613,11 +3613,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3657,7 +3657,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3701,11 +3701,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3745,7 +3745,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3789,7 +3789,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3833,7 +3833,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3877,7 +3877,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3921,7 +3921,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3965,7 +3965,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4009,11 +4009,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4053,11 +4053,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4097,11 +4097,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d083e7ab2b94a6546bbc7b2a145794da, type: 3}
-  m_Color: {r: 0.19215688, g: 0.03137255, b: 0.121568635, a: 1}
+  m_Color: {r: 0.17254902, g: 0.49803925, b: 0.69803923, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.62, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4141,7 +4141,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.43529415, g: 0.5372549, b: 0.5882353, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4185,7 +4185,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.16470589, g: 0.98823535, b: 0.9607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4229,7 +4229,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4273,7 +4273,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.60784316, g: 1, b: 0.82745105, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4317,7 +4317,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
-  m_Color: {r: 0.46323532, g: 0.095371984, b: 0.13836905, a: 1}
+  m_Color: {r: 0.3921569, g: 0.7137255, b: 0.6745098, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

@@ -23,10 +23,9 @@ GameObject:
   - component: {fileID: 58805069704573936}
   - component: {fileID: 50048948011198168}
   - component: {fileID: 114240875741008438}
-  - component: {fileID: 114499460430945700}
   - component: {fileID: 114063000069054764}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: level1_14
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,19 +107,6 @@ MonoBehaviour:
   stopForceTime: 0.5
   forceAngle: {x: 0, y: -6}
   idle: 1
---- !u!114 &114499460430945700
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704893791809338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3954963b0062eb74f848e9b0f5e92971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gravityScale: 0.8
-  destroyTime: 10
 --- !u!212 &212562142445804608
 SpriteRenderer:
   m_ObjectHideFlags: 1
