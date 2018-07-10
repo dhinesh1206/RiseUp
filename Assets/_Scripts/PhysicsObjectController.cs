@@ -29,6 +29,9 @@ public class PhysicsObjectController : MonoBehaviour {
                     }
                 }
                 rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
+            } else
+            {
+                rb.velocity = new Vector3(rb.velocity.x, 0);
             }
         }
         else

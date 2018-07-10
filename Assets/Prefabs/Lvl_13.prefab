@@ -1126,7 +1126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1573846652699422}
   m_LocalRotation: {x: -0, y: -0, z: -0.9999815, w: -0.0060773003}
-  m_LocalPosition: {x: -1.1399999, y: -0.27000055, z: 0}
+  m_LocalPosition: {x: -1.48, y: -0.27000055, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0}
   m_Children: []
   m_Father: {fileID: 4999599760870660}
@@ -3016,7 +3016,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.59, y: 0.6}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3041,7 +3041,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.59, y: 0.6}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3066,7 +3066,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.59, y: 0.6}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3191,7 +3191,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.59, y: 0.6}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToActivate: 0
   speed: 0.6
-  endPosition: {x: 5.91, y: -0.33, z: 0}
+  endPosition: {x: 5.91, y: -0.2700005, z: 0}
   idle: 1
 --- !u!114 &114092694926979358
 MonoBehaviour:
@@ -3422,7 +3422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToActivate: 0
   speed: 0.6
-  endPosition: {x: 5.91, y: -0.33, z: 0}
+  endPosition: {x: 5.91, y: -0.2700005, z: 0}
   idle: 1
 --- !u!114 &114219309721482420
 MonoBehaviour:
@@ -3696,7 +3696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToActivate: 0
   speed: 0.6
-  endPosition: {x: 5.91, y: -0.33, z: 0}
+  endPosition: {x: 5.91, y: -0.2700005, z: 0}
   idle: 1
 --- !u!114 &114464725735686026
 MonoBehaviour:

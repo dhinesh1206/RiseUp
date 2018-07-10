@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58805069704573936}
   - component: {fileID: 50048948011198168}
   - component: {fileID: 114240875741008438}
-  - component: {fileID: 114063000069054764}
+  - component: {fileID: 114749028322620784}
   m_Layer: 0
   m_Name: level1_14
   m_TagString: Enemy
@@ -39,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1704893791809338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,18 +79,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.32
---- !u!114 &114063000069054764
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704893791809338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad764b5871553c044830915593ba9fdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagName: Player
 --- !u!114 &114240875741008438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -105,8 +93,19 @@ MonoBehaviour:
   timeToActivate: 0
   thrust: 100
   stopForceTime: 0.5
-  forceAngle: {x: 0, y: -6}
+  forceAngle: {x: 1, y: -6}
   idle: 1
+--- !u!114 &114749028322620784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704893791809338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1d2459ba844a6459c95f5cedb1ccf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212562142445804608
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212039290575025436}
   - component: {fileID: 50761348412171072}
   - component: {fileID: 114866299041601400}
-  - component: {fileID: 114384980809656304}
   - component: {fileID: 58481014363508776}
+  - component: {fileID: 114206850692409730}
   m_Layer: 0
   m_Name: Circle 4
   m_TagString: Enemy
@@ -79,7 +79,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.32
---- !u!114 &114384980809656304
+--- !u!114 &114206850692409730
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -87,11 +87,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1484754938836632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36557a0de356545428354f720161504d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a1d2459ba844a6459c95f5cedb1ccf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 3
-  activationgravityscale: 0.8
 --- !u!114 &114866299041601400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,6 +115,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -132,6 +131,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

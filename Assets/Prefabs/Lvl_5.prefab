@@ -2539,13 +2539,13 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 30
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.1
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!50 &50459583575537394
 Rigidbody2D:
@@ -2739,13 +2739,13 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 30
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.1
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!50 &50627549365410808
 Rigidbody2D:
@@ -3241,7 +3241,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58200090149040770
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3269,9 +3269,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58228046804883950
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3284,9 +3284,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58243998681098450
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3299,9 +3299,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64000005
 --- !u!58 &58272643558926442
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3329,9 +3329,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64000005
 --- !u!58 &58284777086894666
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3374,9 +3374,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0000076293945}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64000005
 --- !u!58 &58326459513132994
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3404,9 +3404,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000076293945}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58353067377442730
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3436,7 +3436,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58388047632899932
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3464,9 +3464,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58469902780647876
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3511,7 +3511,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58503547959780304
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3571,7 +3571,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58643187667281350
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3614,9 +3614,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000076293945}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58741519361441658
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3661,7 +3661,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58767566270800206
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3676,7 +3676,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58784709721809882
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3719,9 +3719,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000076293945}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58815722616797416
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3794,9 +3794,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000076293945}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.64
 --- !u!58 &58899065702685018
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3809,9 +3809,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.6399999
 --- !u!58 &58971918537824164
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -3824,9 +3824,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0000038146973}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.6399999
 --- !u!60 &60024440303134848
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -3967,7 +3967,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3992,7 +3992,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4042,7 +4042,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4142,7 +4142,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4217,7 +4217,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4367,7 +4367,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 1.42, y: 2.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

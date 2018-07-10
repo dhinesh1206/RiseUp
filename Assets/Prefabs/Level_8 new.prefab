@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 212357836958094680}
   - component: {fileID: 58338861685341154}
   - component: {fileID: 50464594553611172}
-  - component: {fileID: 114778459790466450}
   - component: {fileID: 114519813269686068}
   m_Layer: 0
   m_Name: Circle (8)
@@ -61,7 +60,6 @@ GameObject:
   - component: {fileID: 212503158549626060}
   - component: {fileID: 58886735992863908}
   - component: {fileID: 50124386297339378}
-  - component: {fileID: 114008344780086988}
   - component: {fileID: 114278727975776538}
   m_Layer: 0
   m_Name: Circle (22)
@@ -81,7 +79,6 @@ GameObject:
   - component: {fileID: 212623040191959124}
   - component: {fileID: 58504072049357254}
   - component: {fileID: 50878165743028220}
-  - component: {fileID: 114845361353072486}
   - component: {fileID: 114366991632503884}
   m_Layer: 0
   m_Name: Circle (33)
@@ -101,7 +98,6 @@ GameObject:
   - component: {fileID: 212904536249291546}
   - component: {fileID: 58376944144890094}
   - component: {fileID: 50779484293500560}
-  - component: {fileID: 114215427012322688}
   - component: {fileID: 114662178849578340}
   m_Layer: 0
   m_Name: Circle (20)
@@ -140,7 +136,6 @@ GameObject:
   - component: {fileID: 212942955312737860}
   - component: {fileID: 58769242168115090}
   - component: {fileID: 50476858717033116}
-  - component: {fileID: 114415093016384892}
   - component: {fileID: 114550774449606052}
   m_Layer: 0
   m_Name: Circle (12)
@@ -160,7 +155,6 @@ GameObject:
   - component: {fileID: 212796115220088534}
   - component: {fileID: 58625303526625756}
   - component: {fileID: 50328678430073968}
-  - component: {fileID: 114868617298959198}
   - component: {fileID: 114859564194742946}
   m_Layer: 0
   m_Name: Circle (32)
@@ -257,7 +251,6 @@ GameObject:
   - component: {fileID: 61811208763057124}
   - component: {fileID: 61346433091801192}
   - component: {fileID: 50116273048517658}
-  - component: {fileID: 114731464844147158}
   - component: {fileID: 114915819484561344}
   - component: {fileID: 114055150178476012}
   - component: {fileID: 114405386042226652}
@@ -279,7 +272,6 @@ GameObject:
   - component: {fileID: 212611434129422960}
   - component: {fileID: 58052026993673486}
   - component: {fileID: 50251730377430428}
-  - component: {fileID: 114352869354899544}
   - component: {fileID: 114784647137646282}
   m_Layer: 0
   m_Name: Circle (26)
@@ -299,7 +291,6 @@ GameObject:
   - component: {fileID: 212624867218643230}
   - component: {fileID: 58073431002545964}
   - component: {fileID: 50761635795824394}
-  - component: {fileID: 114641942735548396}
   - component: {fileID: 114992953542433196}
   m_Layer: 0
   m_Name: Circle (35)
@@ -319,7 +310,6 @@ GameObject:
   - component: {fileID: 212372416871920632}
   - component: {fileID: 58864644341438214}
   - component: {fileID: 50525014594413176}
-  - component: {fileID: 114417774212138350}
   - component: {fileID: 114709268504585424}
   m_Layer: 0
   m_Name: Circle (21)
@@ -339,7 +329,6 @@ GameObject:
   - component: {fileID: 212960552661819642}
   - component: {fileID: 58728221928155058}
   - component: {fileID: 50820119157381066}
-  - component: {fileID: 114290430443230412}
   - component: {fileID: 114165140881920414}
   m_Layer: 0
   m_Name: Circle (34)
@@ -359,7 +348,6 @@ GameObject:
   - component: {fileID: 212789415091027942}
   - component: {fileID: 58102162787946400}
   - component: {fileID: 50009834607487728}
-  - component: {fileID: 114531859032474666}
   - component: {fileID: 114114526657009994}
   m_Layer: 0
   m_Name: Circle (9)
@@ -379,7 +367,6 @@ GameObject:
   - component: {fileID: 212294931156044996}
   - component: {fileID: 58285686324450956}
   - component: {fileID: 50077124591682810}
-  - component: {fileID: 114507604324445316}
   - component: {fileID: 114813241123091232}
   m_Layer: 0
   m_Name: Circle (23)
@@ -399,7 +386,6 @@ GameObject:
   - component: {fileID: 212126715658631424}
   - component: {fileID: 58433272866796612}
   - component: {fileID: 50133917683619316}
-  - component: {fileID: 114658511885734500}
   - component: {fileID: 114903161032085662}
   m_Layer: 0
   m_Name: Circle (50)
@@ -419,7 +405,6 @@ GameObject:
   - component: {fileID: 212726192453770672}
   - component: {fileID: 58951469268352758}
   - component: {fileID: 50142878845042122}
-  - component: {fileID: 114569236983641292}
   - component: {fileID: 114452203863181808}
   m_Layer: 0
   m_Name: Circle (49)
@@ -458,7 +443,6 @@ GameObject:
   - component: {fileID: 212369686725968560}
   - component: {fileID: 58408646717899204}
   - component: {fileID: 50532374346074824}
-  - component: {fileID: 114022525488155444}
   - component: {fileID: 114157597677958620}
   m_Layer: 0
   m_Name: Circle (18)
@@ -478,7 +462,6 @@ GameObject:
   - component: {fileID: 212358461587154110}
   - component: {fileID: 58985491477253564}
   - component: {fileID: 50201362988122652}
-  - component: {fileID: 114236009536786836}
   - component: {fileID: 114458744883111102}
   m_Layer: 0
   m_Name: Circle (10)
@@ -537,7 +520,6 @@ GameObject:
   - component: {fileID: 212205238798608458}
   - component: {fileID: 58209936283268412}
   - component: {fileID: 50976887613272578}
-  - component: {fileID: 114466330831394554}
   - component: {fileID: 114513788392101096}
   m_Layer: 0
   m_Name: Circle (16)
@@ -557,7 +539,6 @@ GameObject:
   - component: {fileID: 212814047645229062}
   - component: {fileID: 58188773875311326}
   - component: {fileID: 50096496860158822}
-  - component: {fileID: 114363455134402874}
   - component: {fileID: 114190481378609536}
   m_Layer: 0
   m_Name: Circle (25)
@@ -577,7 +558,6 @@ GameObject:
   - component: {fileID: 212007666362157046}
   - component: {fileID: 58184894680584376}
   - component: {fileID: 50753423215342570}
-  - component: {fileID: 114642856326029074}
   - component: {fileID: 114571724754703304}
   m_Layer: 0
   m_Name: Circle (30)
@@ -597,7 +577,6 @@ GameObject:
   - component: {fileID: 212013584350600604}
   - component: {fileID: 58363527150744156}
   - component: {fileID: 50186165946085164}
-  - component: {fileID: 114976629203090054}
   - component: {fileID: 114109584971251746}
   m_Layer: 0
   m_Name: Circle (14)
@@ -654,7 +633,6 @@ GameObject:
   - component: {fileID: 212453093596756646}
   - component: {fileID: 58154713486855468}
   - component: {fileID: 50168322260386492}
-  - component: {fileID: 114086629939925744}
   - component: {fileID: 114861023684524362}
   m_Layer: 0
   m_Name: Circle (29)
@@ -693,7 +671,6 @@ GameObject:
   - component: {fileID: 212500005019078254}
   - component: {fileID: 58967456786875138}
   - component: {fileID: 50884126251701064}
-  - component: {fileID: 114549526158019970}
   - component: {fileID: 114725971420386322}
   - component: {fileID: 114422822635311024}
   m_Layer: 0
@@ -734,7 +711,6 @@ GameObject:
   - component: {fileID: 212747955522017142}
   - component: {fileID: 58588760870011316}
   - component: {fileID: 50899366548246404}
-  - component: {fileID: 114069171776327290}
   - component: {fileID: 114160035506745818}
   m_Layer: 0
   m_Name: Circle (27)
@@ -773,7 +749,6 @@ GameObject:
   - component: {fileID: 212642485248200626}
   - component: {fileID: 58011521849150036}
   - component: {fileID: 50946743959850834}
-  - component: {fileID: 114249547957828054}
   - component: {fileID: 114257039559582510}
   m_Layer: 0
   m_Name: Circle (48)
@@ -832,7 +807,6 @@ GameObject:
   - component: {fileID: 212480820256659202}
   - component: {fileID: 58019334165393778}
   - component: {fileID: 50539351992212438}
-  - component: {fileID: 114273318418641624}
   - component: {fileID: 114542148028266806}
   m_Layer: 0
   m_Name: Circle (31)
@@ -904,7 +878,6 @@ GameObject:
   - component: {fileID: 212491854078125056}
   - component: {fileID: 58265201361831444}
   - component: {fileID: 50507538039342796}
-  - component: {fileID: 114262277657995556}
   - component: {fileID: 114534182255744368}
   m_Layer: 0
   m_Name: Circle (13)
@@ -924,7 +897,6 @@ GameObject:
   - component: {fileID: 212947878253084362}
   - component: {fileID: 58214852806939388}
   - component: {fileID: 50818578643706678}
-  - component: {fileID: 114044585151781276}
   - component: {fileID: 114073890217852350}
   m_Layer: 0
   m_Name: Circle (17)
@@ -944,7 +916,6 @@ GameObject:
   - component: {fileID: 212021297696465824}
   - component: {fileID: 58660242238387480}
   - component: {fileID: 50987861066434986}
-  - component: {fileID: 114611909533542438}
   - component: {fileID: 114897191671435870}
   m_Layer: 0
   m_Name: Circle (15)
@@ -964,7 +935,6 @@ GameObject:
   - component: {fileID: 212282676195815356}
   - component: {fileID: 58958151996265668}
   - component: {fileID: 50421329992093728}
-  - component: {fileID: 114610526843492990}
   - component: {fileID: 114958462441700672}
   m_Layer: 0
   m_Name: Circle (11)
@@ -984,7 +954,6 @@ GameObject:
   - component: {fileID: 212075022616838432}
   - component: {fileID: 58380067676752432}
   - component: {fileID: 50483874893294344}
-  - component: {fileID: 114358776673382786}
   - component: {fileID: 114963531880644874}
   m_Layer: 0
   m_Name: Circle (28)
@@ -3347,7 +3316,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3397,7 +3366,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3672,7 +3641,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4, y: 2.5}
+    oldSize: {x: 1.33, y: 2.45}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3706,17 +3675,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2683504, y: 1.264638}
   m_EdgeRadius: 0
---- !u!114 &114008344780086988
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1068388316314462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114013829098204442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3730,17 +3688,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114022525488155444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1504781442878638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114029645645700052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3754,17 +3701,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114044585151781276
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1936017327744854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114055150178476012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3781,17 +3717,6 @@ MonoBehaviour:
   stopForceTime: 0
   forceAngle: {x: 0.5, y: -2}
   idle: 1
---- !u!114 &114069171776327290
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1710424740660130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114073890217852350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3805,17 +3730,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114086629939925744
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1685775201739160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114087938460959292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3907,17 +3821,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114215427012322688
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1119005184216640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114222688157242208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3931,28 +3834,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114236009536786836
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1544685832748570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114249547957828054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748573866938098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114257039559582510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3966,17 +3847,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114262277657995556
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1934249491568470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114262659171548770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4003,17 +3873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114273318418641624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1799514383963140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114278727975776538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4040,17 +3899,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114290430443230412
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1403333418217808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114313764159059916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4064,39 +3912,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114352869354899544
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1328692299119372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114358776673382786
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1979428987780052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114363455134402874
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1613275115791964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114366991632503884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4136,28 +3951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114415093016384892
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1205807610115262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114417774212138350
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1402545544026186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114422822635311024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4197,17 +3990,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114466330831394554
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1604622305783288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114476379525582884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4221,17 +4003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114507604324445316
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1450361312540162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114513788392101096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4258,17 +4029,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114531859032474666
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1449114746219702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114534182255744368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4308,17 +4068,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114549526158019970
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1697921696452436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114550774449606052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4332,17 +4081,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114569236983641292
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1469086292389490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114571724754703304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4356,61 +4094,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114610526843492990
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1969397501218280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114611909533542438
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1956366837915802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114641942735548396
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1350634145674260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114642856326029074
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1614826238416678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114658511885734500
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1455607271673176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114662178849578340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4466,28 +4149,6 @@ MonoBehaviour:
   speed: 10
   endPosition: {x: 0, y: -22, z: 0}
   idle: 1
---- !u!114 &114731464844147158
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1312818909328314}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114778459790466450
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1012195244903888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114784647137646282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4553,17 +4214,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114845361353072486
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088713325446762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114859564194742946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4590,17 +4240,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114868617298959198
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1228551366619560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114887513466725576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4679,7 +4318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPosition: -10
-  time: 15
+  time: 12
 --- !u!114 &114958462441700672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4706,17 +4345,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityScale: 0.8
   destroyTime: 15
---- !u!114 &114976629203090054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1619101006463676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114992953542433196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5645,7 +5273,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 158479bec03104345b5053050c356eaa, type: 3}
-  m_Color: {r: 0.36078432, g: 0.2509804, b: 0.18039216, a: 1}
+  m_Color: {r: 0.625, g: 0.3340793, b: 0.14705881, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5909,7 +5537,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 158479bec03104345b5053050c356eaa, type: 3}
-  m_Color: {r: 0.36078432, g: 0.2509804, b: 0.18039216, a: 1}
+  m_Color: {r: 0.625, g: 0.3340793, b: 0.14705881, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6217,7 +5845,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 158479bec03104345b5053050c356eaa, type: 3}
-  m_Color: {r: 0.36078432, g: 0.2509804, b: 0.18039216, a: 1}
+  m_Color: {r: 0.625, g: 0.3340793, b: 0.14705881, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

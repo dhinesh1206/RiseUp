@@ -2935,7 +2935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.8
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: -6, y: -15}
   idle: 1
@@ -2980,7 +2980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.7
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: -6, y: -15}
   idle: 1
@@ -3023,7 +3023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 3.2
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 5, y: -15}
   idle: 1
@@ -3080,7 +3080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 2.1
-  thrust: 25
+  thrust: 20
   stopForceTime: 10
   forceAngle: {x: -5, y: -15}
   idle: 1
@@ -3096,7 +3096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.2
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -0.5, y: -10}
   idle: 1
@@ -3205,7 +3205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e4c54f1ec522d4abcfb2ad7f1b58a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 2.1
+  timeToActivate: 1.8
   thrust: 25
   stopForceTime: 10
   forceAngle: {x: 5, y: -15}
@@ -3222,7 +3222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.45
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -3238,7 +3238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.3
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -0.5, y: -10}
   idle: 1
@@ -3267,7 +3267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.45
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -3353,7 +3353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.4
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -0.5, y: -10}
   idle: 1
@@ -3369,7 +3369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -0.5, y: -10}
   idle: 1
@@ -3425,8 +3425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e4c54f1ec522d4abcfb2ad7f1b58a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 3.3
-  thrust: 25
+  timeToActivate: 3
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -5, y: -15}
   idle: 1
@@ -3456,7 +3456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.55
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -3514,7 +3514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.5
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: 6, y: -10}
   idle: 1
@@ -3557,7 +3557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0.5, y: -10}
   idle: 1
@@ -3573,7 +3573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.6
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: -6, y: -15}
   idle: 1
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.8
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: 4, y: -4}
   idle: 1
@@ -3618,7 +3618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.7
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: 5, y: -5}
   idle: 1
@@ -3691,7 +3691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.3
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0.5, y: -10}
   idle: 1
@@ -3817,7 +3817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.1
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -0.5, y: -10}
   idle: 1
@@ -3849,7 +3849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.1
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0.5, y: -10}
   idle: 1
@@ -3878,7 +3878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.65
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -3894,7 +3894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.6
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: 5, y: -9}
   idle: 1
@@ -3989,7 +3989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.55
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -4005,7 +4005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 4.65
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0, y: -10}
   idle: 1
@@ -4089,7 +4089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 3.2
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 5, y: -15}
   idle: 1
@@ -4144,8 +4144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e4c54f1ec522d4abcfb2ad7f1b58a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToActivate: 3.3
-  thrust: 25
+  timeToActivate: 3
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: -5, y: -15}
   idle: 1
@@ -4177,7 +4177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 0
-  thrust: 25
+  thrust: 50
   stopForceTime: 20
   forceAngle: {x: 0, y: -5}
   idle: 1
@@ -4262,7 +4262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.4
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0.5, y: -10}
   idle: 1
@@ -4305,7 +4305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 5.5
-  thrust: 10
+  thrust: 8
   stopForceTime: 10
   forceAngle: {x: -6, y: -15}
   idle: 1
@@ -4334,7 +4334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 8.2
-  thrust: 25
+  thrust: 15
   stopForceTime: 10
   forceAngle: {x: 0.5, y: -10}
   idle: 1

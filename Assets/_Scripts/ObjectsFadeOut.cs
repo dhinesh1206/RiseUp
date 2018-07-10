@@ -13,6 +13,7 @@ public class ObjectsFadeOut : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         sp = GetComponent<SpriteRenderer>();
+        StartCoroutine(FadeOut());
 	}
 	
 	// Update is called once per frame

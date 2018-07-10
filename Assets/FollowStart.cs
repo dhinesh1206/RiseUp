@@ -61,14 +61,14 @@ public class FollowStart : MonoBehaviour {
         {
 
             GameObject createdObject = Instantiate(tailPrefab[index], transform, false);
-            createdObject.transform.localScale = sizeDifference[i];
+            createdObject.transform.localScale = sizeDifference[0];
             createdObject.transform.SetParent(null);
             tail.Add(createdObject);
         }
         tailCount = tail.Count;
         TailCountIndicator.instance.UpdateCount();
 
-
+        tail[0].GetComponentInChildren<SpriteRenderer>().enabled = false;
         TailAnim();
 
        // StartCoroutine(AddTail(3));
@@ -90,14 +90,21 @@ public class FollowStart : MonoBehaviour {
         instance = this;
     }
 
+    public float maxX, maxY;
     public void Update()
     {
+        
+        CheckMaxPos();
+
         return;
+
         if (tail.Count > 0)
         {
             //tail[0].transform.position = Vector3.MoveTowards( new Vector3(tail[0].transform.position.x, transform.position.y, tail[0].transform.position.z);
             tail[0].transform.position = Vector2.Lerp(tail[0].transform.position, transform.position, speed * Time.deltaTime);
         }
+
+
 
         for (int i = 1; i < tail.Count; i++)
         {
@@ -132,8 +139,38 @@ public class FollowStart : MonoBehaviour {
          //   tail[i].transform.LookAt(tail[i - 1].transform);
             tail[i].transform.DOMove(tail[i - 1].transform.GetChild(1).transform.position, animCheckTime, false).SetEase(easetype);
         }
-        Invoke("TailAnim", animCheckTime);
+       // Invoke("TailAnim", animCheckTime);
     }
+    public float lerpValue;
+    void CheckMaxPos()
+    {
+
+        if (tail.Count > 0)
+            tail[0].transform.position = transform.position;
+
+        for (int i = 1; i < tail.Count; i++)
+        {
+            if (tail[i].transform.position.x < tail[i - 1].transform.GetChild(1).transform.position.x - maxX)
+                tail[i].transform.position = new Vector3(tail[i - 1].transform.GetChild(1).transform.position.x - maxX, tail[i].transform.position.y, tail[i].transform.position.z);
+            else if (tail[i].transform.position.x > tail[i - 1].transform.GetChild(1).transform.position.x + maxX)
+                tail[i].transform.position = new Vector3(tail[i - 1].transform.GetChild(1).transform.position.x + maxX, tail[i].transform.position.y, tail[i].transform.position.z);
+            //else
+            //    tail[i].transform.position = Vector2.Lerp(tail[i].transform.position, new Vector3(tail[i - 1].transform.GetChild(1).transform.position.x, tail[i].transform.position.y, tail[i].transform.position.z), speed * Time.deltaTime);
+
+
+            if (tail[i].transform.position.y < tail[i - 1].transform.GetChild(1).transform.position.y - maxY)
+                tail[i].transform.position = new Vector3(tail[i].transform.position.x, tail[i - 1].transform.GetChild(1).transform.position.y - maxY, tail[i].transform.position.z);
+            else if (tail[i].transform.position.y > tail[i - 1].transform.GetChild(1).transform.position.y + maxY)
+                tail[i].transform.position = new Vector3(tail[i].transform.position.x, tail[i - 1].transform.GetChild(1).transform.position.y + maxY, tail[i].transform.position.z);
+            //else
+            //    tail[i].transform.position = Vector2.Lerp(tail[i].transform.position, new Vector3(tail[i].transform.position.x, tail[i - 1].transform.GetChild(1).transform.position.y, tail[i].transform.position.z), speed * Time.deltaTime);
+
+
+            tail[i].transform.position = Vector2.Lerp(tail[i].transform.position, tail[i - 1].transform.GetChild(1).transform.position, lerpValue);
+        }
+    }
+
+
 
     public void DetachTail(GameObject tailtobedetached)
     {
@@ -187,7 +224,7 @@ public class FollowStart : MonoBehaviour {
             if(tailCount == 0)
             {
                 GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
-                createdobject.transform.localScale = sizeDifference[tailCount];
+               // createdobject.transform.localScale = sizeDifference[tailCount];
                 createdobject.transform.SetParent(null);
                 tail.Add(createdobject);
                 tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position,transform.parent.GetChild(1).transform.position, speed * Time.deltaTime);
@@ -196,7 +233,7 @@ public class FollowStart : MonoBehaviour {
             } else
             {
                 GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
-                createdobject.transform.localScale = sizeDifference[tailCount];
+                //createdobject.transform.localScale = sizeDifference[tailCount];
                 createdobject.transform.SetParent(null);
                 tail.Add(createdobject);
                 tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);

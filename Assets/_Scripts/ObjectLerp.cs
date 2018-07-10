@@ -17,7 +17,7 @@ public class ObjectLerp : MonoBehaviour {
 	void Update () {
         if (idle == false)
         {
-            transform.position = Vector3.Lerp(transform.position, endPosition, speed * Time.deltaTime);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, endPosition, speed * Time.deltaTime);
         }
 	}
 

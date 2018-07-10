@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 58805069704573936}
   - component: {fileID: 50048948011198168}
   - component: {fileID: 114240875741008438}
-  - component: {fileID: 114063000069054764}
+  - component: {fileID: 114823351581483682}
+  - component: {fileID: 114446992024215838}
   m_Layer: 0
   m_Name: Lvl_1
   m_TagString: Enemy
@@ -79,18 +80,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.32
---- !u!114 &114063000069054764
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704893791809338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad764b5871553c044830915593ba9fdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagName: Player
 --- !u!114 &114240875741008438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,10 +92,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 0
-  thrust: 100
+  thrust: 500
   stopForceTime: 0.5
-  forceAngle: {x: 0, y: -6}
+  forceAngle: {x: -1, y: 0}
   idle: 1
+--- !u!114 &114446992024215838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704893791809338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 0.8
+  destroyTime: 10
+--- !u!114 &114823351581483682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704893791809338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1d2459ba844a6459c95f5cedb1ccf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212562142445804608
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -143,7 +156,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
   m_Color: {r: 0.9058824, g: 0.1137255, b: 0.21176472, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.64, y: 0.64}
