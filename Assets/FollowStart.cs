@@ -33,7 +33,7 @@ public class FollowStart : MonoBehaviour {
 
     private void On_NextLevel()
     {
-        AddTails(5);
+        AddTails(10);
         StartCoroutine(TunOnChilds());
 
     }
@@ -207,7 +207,7 @@ public class FollowStart : MonoBehaviour {
         for(int i=0; i< count; i++)
         {
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.1f);
             AddTailFunction();
         }
     }
@@ -224,7 +224,7 @@ public class FollowStart : MonoBehaviour {
             if(tailCount == 0)
             {
                 GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
-               // createdobject.transform.localScale = sizeDifference[tailCount];
+                createdobject.transform.localScale = sizeDifference[0];
                 createdobject.transform.SetParent(null);
                 tail.Add(createdobject);
                 tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position,transform.parent.GetChild(1).transform.position, speed * Time.deltaTime);
@@ -233,7 +233,7 @@ public class FollowStart : MonoBehaviour {
             } else
             {
                 GameObject createdobject = Instantiate(tailPrefab[index], transform, false);
-                //createdobject.transform.localScale = sizeDifference[tailCount];
+                createdobject.transform.localScale = sizeDifference[0];
                 createdobject.transform.SetParent(null);
                 tail.Add(createdobject);
                 tail[tail.Count - 1].transform.position = Vector2.Lerp(tail[tail.Count - 1].transform.position, tail[tail.Count - 2].transform.GetChild(1).transform.position, speed * Time.deltaTime);
