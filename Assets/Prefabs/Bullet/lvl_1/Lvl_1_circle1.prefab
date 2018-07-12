@@ -23,9 +23,11 @@ GameObject:
   - component: {fileID: 58805069704573936}
   - component: {fileID: 50048948011198168}
   - component: {fileID: 114240875741008438}
+  - component: {fileID: 114823351581483682}
+  - component: {fileID: 114446992024215838}
   m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
+  m_Name: Lvl_1_circle1
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,7 +58,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -86,13 +88,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 1704893791809338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26f91426ffa388a44941fb569bb0de35, type: 3}
+  m_Script: {fileID: 11500000, guid: 45e4c54f1ec522d4abcfb2ad7f1b58a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeToActivate: 0
   thrust: 500
+  stopForceTime: 0.5
   forceAngle: {x: -1, y: 0}
   idle: 1
+--- !u!114 &114446992024215838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704893791809338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d1a642ff4dec9459057be495a00fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 0.8
+  destroyTime: 10
+--- !u!114 &114823351581483682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704893791809338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1d2459ba844a6459c95f5cedb1ccf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212562142445804608
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -102,6 +129,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -117,6 +145,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -127,7 +156,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53dd8d9d7cf165641ab1977eb18e900f, type: 3}
   m_Color: {r: 0.9058824, g: 0.1137255, b: 0.21176472, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.64, y: 0.64}
